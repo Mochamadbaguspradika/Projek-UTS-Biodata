@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget{
 @override
 Widget build(BuildContext context){
   return new Scaffold(
-    backgroundColor: Colors.blue[200],
+    backgroundColor: Color.fromARGB(255, 23, 223, 140),
     appBar: new AppBar(
-      backgroundColor: Colors.blue[300],
+      backgroundColor: Color.fromARGB(255, 55, 244, 134),
       leading: new Icon(Icons.people_outline),
       title: new Center(
         child: new Text(
